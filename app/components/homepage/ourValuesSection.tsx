@@ -8,11 +8,17 @@ const OurValues = () => {
           <span>Every Product</span>
         </div>
         <div>
-          <img src="/motto3.png" className="w-[300px] h-auto lg:w-[200px] sm:hidden" alt="image" />
+          <img
+            src="/motto3.png"
+            className="w-[300px] h-auto lg:w-[200px] sm:hidden"
+            alt="image"
+          />
         </div>
       </div>
       <div className="grid grid-cols-[1.2fr_1fr] pt-10 lg:grid-cols-2 md:!grid-cols-[0.8fr_1fr] md:gap-5 sm:flex sm:flex-col">
-        <div><img src="mokosz.png" className="w-[300px] h-auto md:w-full" /></div>
+        <div>
+          <img src="mokosz.png" className="w-[300px] h-auto md:w-full" />
+        </div>
         <div className="flex flex-col gap-5 text-3xl lg:text-2xl md:!text-xl">
           <p>
             At Mokosh Cosmetics, we specialize in crafting exceptional natural
