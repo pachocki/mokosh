@@ -109,9 +109,9 @@ const Blog = () => {
           </div>
           <div className="pb-20 px-2 sm:pb-0 sm:px-0">
             {blogData.slice(4, 5).map((blog) => (
-              <div className="w-full">
+              <div className="w-full" key={blog.index}>
                 <BlogCard
-                  key={blog.index}
+                  
                   index={blog.index}
                   title={blog.title}
                   image={blog.image}
@@ -126,9 +126,9 @@ const Blog = () => {
           </div>
           <div className="flex justify-between gap-2 pb-20 sm:flex-col sm:[&>*:first-child]:self-end sm:pb-0 ">
             {blogData.slice(6, 8).map((blog) => (
-              <div className="w-full sm:w-auto ">
+              <div className="w-full sm:w-auto " key={blog.index}>
                 <BlogCard
-                  key={blog.index}
+                  
                   index={blog.index}
                   title={blog.title}
                   image={blog.image}
