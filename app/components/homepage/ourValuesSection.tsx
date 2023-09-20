@@ -22,7 +22,7 @@ const OurValues = () => {
             beauty of simplicity.
           </p>
           <p>
-            Our name, 'Mokosh,' pays homage to the ancient Slavic goddess of the
+            Our name, Mokosh, pays homage to the ancient Slavic goddess of the
             earth and moisture. It is from her that we draw inspiration and the
             wisdom that has accompanied our ancestors for centuries. Just as
             Mokosh cared for the earth and its bounties, we too nurture the
