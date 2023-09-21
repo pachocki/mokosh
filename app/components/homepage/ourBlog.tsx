@@ -28,9 +28,9 @@ const blogData = [
 
 const OurBlog = () => {
   return (
-    <section className="container mx-auto py-20 px-10 sm:px-2 ">
-      <div className="flex justify-between items-center">
-        <div className="flex gap-4 text-7xl lg:text-4xl xs:text-3xl">
+    <section className="container mx-auto py-20 px-10 sm:px-2 sm:py-10">
+      <div className="flex justify-between items-center pb-10">
+        <div className="flex gap-4  text-7xl lg:text-4xl xs:text-3xl ">
           <span className="font-serif italic">Our</span>
           <span>BLOG</span>
         </div>
