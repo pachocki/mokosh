@@ -49,7 +49,6 @@ const OurBlog = () => {
             category={blog.category}
           />
         ))}
-        ;
       </div>
     </section>
   );
