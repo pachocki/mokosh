@@ -10,7 +10,7 @@ const axiosInstance = axios.create({
 
 const getBillboard = async (id: string): Promise<Billboard> => {
   try {
-    const response = await axiosInstance.get(`/billboards/${id}`);
+    const response = await axios.get(`/billboards/${id}`);
     return response.data;
   } catch (error) {
     console.error('Error:', error);
